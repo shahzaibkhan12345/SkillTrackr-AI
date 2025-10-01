@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Always include .env.example
+!.env.example
+
+# Always include template.py
+!template.py
