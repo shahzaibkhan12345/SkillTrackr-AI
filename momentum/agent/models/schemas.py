@@ -21,6 +21,11 @@ class TaskBase(BaseModel):
 class PlanCreate(PlanBase):
     pass
 
+# 👇 --- ADD THIS LINE --- 👇
+# For creating a new task
+class TaskCreate(TaskBase):
+    pass
+
 # For the full plan data sent back to the UI
 class Plan(PlanBase):
     id: int
